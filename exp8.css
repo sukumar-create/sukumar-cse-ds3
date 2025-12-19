@@ -1,0 +1,65 @@
+.container{
+    display: flex;
+    border:2px solid;
+    gap: 20%;
+    padding: 0px;
+    justify-content: space-between;
+    
+    margin-top: 0%;
+    height: 200px;
+    width:600px;
+    margin-left: 500px;
+}
+
+.box_1{
+    width: 300px;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+    
+    margin-left: 30px;
+
+}
+.box_2{
+    width: 300px;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+    border: solid white;
+
+
+    
+}
+.box_3{
+    width: 300px;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+    margin-right: 30px;
+}
+.ok{
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    margin-top: 0px;
+    box-shadow: 0px 4px 10px grey;
+    text-align: center;
+    justify-content: space-evenly;
+    ;
+}
+.Logo{
+    width: 40PX;
+    height: 40PX;
+    color: white;
+    border-radius:50%;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
